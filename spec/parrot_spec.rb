@@ -1,9 +1,8 @@
 require_relative './spec_helper'
 require_relative '../parrot.rb' # Code your solution in this file
 def #parrot
-  name = "Frank"
-  puts name.reverse
-  return name
+  puts "Squawk!"
+  "Squawk!"
 end
 
 describe '#parrot' do
